@@ -560,11 +560,11 @@ display: flex;
 
 .social-media-section {
   display: flex;
-  justify-content: space-around;
-  width: auto; 
+  justify-content: space-evenly;
+  width: -webkit-fill-available;
   align-items: center;
-  top: 20px;
-  margin-bottom: 40px;
+  top: 24px;
+  margin-bottom: 60px ;
 }
 
 .Info-p {
@@ -620,6 +620,15 @@ footer {
   flex-direction: column;
   gap: 20px;
   height: 16vh;
+}
+.social-media-section img {
+  margin: -2px;
+}
+.footer-subscription div:first-child {
+  width: 100%;
+  padding: 5px;
+  margin: auto;
+  align-items: center;
 }
 
 } 
